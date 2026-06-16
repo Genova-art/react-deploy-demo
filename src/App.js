@@ -10,14 +10,8 @@ function App() {
         <div style={styles.memberSection}>
           <div style={styles.memberBox}>
             <p style={styles.label}>Nama Mahasiswa 1</p>
-            <h2 style={styles.name}>Fatih Hilmy Aliffian</h2>
+            <h2 style={styles.name}>Bondan Pratama Firdaus</h2>
           </div>
-
-          <div style={styles.memberBox}>
-            <p style={styles.label}>Nama Mahasiswa 2</p>
-            <h2 style={styles.name}>Sigit Maulana</h2>
-          </div>
-        </div>
 
         <div style={styles.statusBadge}>
           <p style={styles.statusText}>Penerapan Deployment & CI/CD</p>
