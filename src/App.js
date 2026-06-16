@@ -9,9 +9,10 @@ function App() {
 
         <div style={styles.memberSection}>
           <div style={styles.memberBox}>
-            <p style={styles.label}>Nama Mahasiswa 1</p>
+            <p style={styles.label}>Nama Mahasiswa</p>
             <h2 style={styles.name}>Bondan Pratama Firdaus</h2>
           </div>
+        </div> {/* <--- Ini penutup yang tadi terlewat agar tidak error */}
 
         <div style={styles.statusBadge}>
           <p style={styles.statusText}>Penerapan Deployment & CI/CD</p>
